@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#kdiv{
+    /* border:2px solid yellow; */
+
+
+    h1,button{
+        color: #fff;
+        
+    }
+}
+#kcoffee{
+    /* border:2px solid blue; */
+    padding: 18px;
+
+    span{
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    img{
+        height: 16vh;
+        border-radius: 48%;
+     }
+
+}
+
+#target{
+    background-image: url(./images/discoverImg.jpg);
+}
+#target:hover{
+background:linear-gradient(to top,#000000,#00000089,#0000003c),
+url(./images/discoverImg.jpg);
+
+transition: all 3s;
+
+}
+p:hover{
+    opacity: 0.4;
+}
+h1{
+    font-size: 18px;
+    font-weight:600;
+}
+p{
+    font-size: 13px;
+}
+
+i{
+    font-size: 28px;
+}
+
+#itemhov span img:hover{
+  border:2px solid green;
+  cursor: pointer;
+  outline: none; 
+}
